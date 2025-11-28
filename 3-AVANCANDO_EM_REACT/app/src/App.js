@@ -30,15 +30,18 @@ function ShowMenssage(){
   const [message, setMessage] = useState("");
 
   const handleMessage = (msg) => {
-    setMessage(msg);
+    setMessage(msg);// funcao do uso state
   };
 
   return (
     <div>
-      <Message msg={message}></Message>
+      <Message msg={message}></Message>{/* show mensagge */}
       <ChangeMessageState handleMessage={handleMessage}></ChangeMessageState>
 
       {/*
+
+
+
  <ExecuteFunction props={ShowMenssage} >
 
  </ExecuteFunction>
