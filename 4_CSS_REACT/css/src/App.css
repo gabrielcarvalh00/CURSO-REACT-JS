@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  color: blue;
+  font-size: 50px;
+}
+
+.red-title {
+  color: green;
+  font-size: 30px;
+}

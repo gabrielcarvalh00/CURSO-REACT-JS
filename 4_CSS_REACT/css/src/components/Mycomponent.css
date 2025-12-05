@@ -8,3 +8,13 @@ p{
     color: yellow;
     font-size: 20px;
 }
+
+.title{
+    color: purple;
+    font-size: 40px;
+}
+
+.redtitle{
+    color: red;
+    font-size: 25px;
+}
